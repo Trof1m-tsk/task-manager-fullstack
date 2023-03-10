@@ -1,0 +1,30 @@
+.header {
+  padding-left: .5em;
+  padding-right: .5em;
+  width: 100%;
+}
+
+.header-grid {
+  display: grid;
+  padding: 1em;
+  grid-template-columns: repeat(3, 1fr);
+  background: rgb(191, 219, 254);
+  border-bottom-left-radius: 1em;
+  border-bottom-right-radius: 1em;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+  border: 2px solid rgb(147, 197, 253);
+  border-top: none;
+}
+
+.header-title {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.header-login-area {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  height: 100%;
+}
